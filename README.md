@@ -15,17 +15,6 @@ Run the following command in the root directory of hexo:
 npm install hexo-broken-link-checker --save
 ```
 
-And enable the plugin in your `_config.yml`.
-
-```
-plugins:
-  - hexo-broken-link-checker
-  ```
-
-This is not necessary anymore for hexo 3.
-
-## Configuration
-
 Open your `_config.yml` file and paste the following lines:
 
 ```
@@ -39,8 +28,6 @@ link_checker:
 * `enabled: (boolean)` - Enables or disables the post inspection for links.
 * `storage_dir: (string)` - Where do you want the plugin to store its files.
 * `silent_logs: (boolean)` - If `true`, the logs will be placed in a log file instead of the console output.
-
-## First run
 
 Once you have all configured, you need to create a few files that will be used by this plugin. Run the following command:
 
